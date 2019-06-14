@@ -1,0 +1,12 @@
+{
+  "name" : "Wap",
+  "short_name":"Wap",
+  "description":"Wab or ([W]eb [A]pp [B]ase) is a basic script of a flexible web app with both IOS and android os",
+  "display":"standalone",
+  "dir":"ltr",
+  "text_align":"left",
+  "lang":"en",
+  "theme_color" : "#1F2532",
+  "navbar_color": "#1F2532",
+  "orientation": "portrait"
+}

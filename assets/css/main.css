@@ -1,0 +1,64 @@
+@font-face
+{
+   font-family: 'samim';
+   src: url('fonts/Samim.eot');
+   src: url('fonts/Samim.eot?iefix') format('embedded-opentype'),
+        url('fonts/Samim.ttf') format('truetype');
+
+}
+*{
+  font-family:'samim','FontAwesome','tahoma';
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+body {
+  -webkit-user-select: none;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-touch-callout: none;
+}
+.btn-navbar-menu {
+  background-color: transparent;
+  border:none;
+  border-radius: 4px;
+  padding: 6px;
+  color: white !important;
+  font-size: 20px;
+}
+.menu-div {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  z-index: 10;
+  display: none;
+  color: white;
+  text-align: center;
+  padding-top: 25px;
+}
+.menu-btn {
+  padding: 9px;
+  padding-left: 16px;
+  padding-right: 16px;
+  border: none;
+  border-radius: 4px;
+  border: 2px solid white;
+  width: 70%;
+  font-weight: bold;
+  color: white !important;
+  margin-top: 10px;
+}
+.menu-btn:hover { background-color: #1F2530; }
+.space-maker { margin-top:58px; }
+.content {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  z-index: 9;
+  overflow-y: scroll;
+}
+.cp {
+  margin-top: 20px;
+}
